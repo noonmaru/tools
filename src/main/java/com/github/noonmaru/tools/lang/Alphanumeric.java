@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.nemosw.tools.lang;
+package com.github.noonmaru.tools.lang;
 
 public final class Alphanumeric
 {

@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.nemosw.tools.gson.config;
+package com.github.noonmaru.tools.gson.config;
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;

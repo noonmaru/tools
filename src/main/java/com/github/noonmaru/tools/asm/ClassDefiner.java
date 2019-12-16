@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.nemosw.tools.asm;
+package com.github.noonmaru.tools.asm;
 
 import java.util.IdentityHashMap;
 

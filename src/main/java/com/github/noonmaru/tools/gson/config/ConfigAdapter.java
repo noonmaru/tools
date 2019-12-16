@@ -14,16 +14,20 @@
  *  limitations under the License.
  */
 
-package com.nemosw.tools.gson.config;
+package com.github.noonmaru.tools.gson.config;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+import com.google.gson.JsonElement;
 
-@Target(ElementType.TYPE)
-@Retention(RetentionPolicy.RUNTIME)
-public @interface Adapter
+public abstract class ConfigAdapter<T>
 {
-	Class<?> value();
+	
+	public abstract T fromJson(JsonElement json);
+	
+	public abstract JsonElement toJson(T o);
+	
+	public boolean isNullValue(T value)
+	{
+		return false;
+	}
+	
 }

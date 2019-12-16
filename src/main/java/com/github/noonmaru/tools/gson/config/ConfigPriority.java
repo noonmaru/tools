@@ -14,22 +14,13 @@
  *  limitations under the License.
  */
 
-package com.nemosw.tools.gson.config;
+package com.github.noonmaru.tools.gson.config;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
-
-@Target(ElementType.FIELD)
-@Retention(RetentionPolicy.RUNTIME)
-public @interface Config
+public enum ConfigPriority
 {
-	
-	String name() default "";
-
-	boolean skippable() default false;
-	
-	ConfigPriority priority() default ConfigPriority.NORMAL;
-	
+	LOWEST,
+	LOW,
+	NORMAL,
+	HIGH,
+	HIGHEST
 }

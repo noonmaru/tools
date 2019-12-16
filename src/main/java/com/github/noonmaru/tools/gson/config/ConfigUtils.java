@@ -14,13 +14,13 @@
  *  limitations under the License.
  */
 
-package com.nemosw.tools.gson.config;
+package com.github.noonmaru.tools.gson.config;
 
+import com.github.noonmaru.tools.gson.JsonIO;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonPrimitive;
-import com.nemosw.tools.gson.JsonIO;
 
 import java.io.File;
 import java.io.IOException;

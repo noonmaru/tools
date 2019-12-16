@@ -14,20 +14,16 @@
  *  limitations under the License.
  */
 
-package com.nemosw.tools.gson.config;
+package com.github.noonmaru.tools.asm;
 
-import com.google.gson.JsonElement;
+import org.junit.Test;
 
-public abstract class ConfigAdapter<T>
+public class ASMInstanceCreatorTest
 {
-	
-	public abstract T fromJson(JsonElement json);
-	
-	public abstract JsonElement toJson(T o);
-	
-	public boolean isNullValue(T value)
-	{
-		return false;
-	}
-	
+
+    @Test
+    public void create()
+    {
+        ASMInstanceCreator.create(ASMInstanceCreatorTest.class).get();
+    }
 }

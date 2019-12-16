@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.nemosw.tools.reflection;
+package com.github.noonmaru.tools.reflection;
 
 import java.lang.reflect.Field;
 import java.util.HashSet;

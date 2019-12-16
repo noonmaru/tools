@@ -14,20 +14,14 @@
  *  limitations under the License.
  */
 
-package com.nemosw.tools.gson;
+package com.github.noonmaru.tools.gson;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.Reader;
+import java.io.*;
 
 
 public final class JsonIO
