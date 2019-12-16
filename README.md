@@ -8,10 +8,20 @@
 ![GitHub](https://img.shields.io/github/license/noonmaru/tools)
 ![Twitch Status](https://img.shields.io/twitch/status/hptgrm)
 
-> * 기능
-> 	```
->   ow 기반의 ClassDefiner와 InstanceCreator
->   gson 기반의 Config
->   Alphanumeric Comparator
->   간단한 Reflection 유틸리티
+> * ##### Features
+>   * ow 기반의 ClassDefiner와 InstanceCreator
+>   * gson 기반의 Config
+>   * Alphanumeric Comparator
+>   * 간단한 Reflection 유틸리티
+> * ##### Gradle
+>   ```groovy
+>   allprojects {
+>       ...
+>       maven { url 'https://jitpack.io' }
+>   }
+>   ```
+>   ```groovy
+>   dependencies {
+>       implementation 'com.github.noonmaru:tools:1.0'
+>   }
 >   ```
